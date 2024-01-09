@@ -2,6 +2,7 @@
 <html>
 <head>
   <%- include ("../partials/header.ejs") %>
+  <link rel="stylesheet" type="text/css" href="https://amin-pdo-org.my.salesforce.com/prefcenter/preference-center-1.1.1/css/pref-center-slds.css">
 </head>
 
 <body>
@@ -24,6 +25,8 @@
     To deploy your own copy, and learn the fundamentals of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs" class="alert-link">Getting Started on Heroku with Node.js</a> tutorial.
   </div>
   <hr>
+  <div id="pref-center-main"></div>
+<script id="preference-center" src="https://amin-pdo-org.my.salesforce.com/prefcenter/preference-center-1.1.1/js/main.js" pref-center-host="https://amin-pdo-org.my.salesforce.com" pref-center-name="Basic_Form" pref-center-param="pctoken"></script>
   <div class="row">
     <div class="col-md-6">
       <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
